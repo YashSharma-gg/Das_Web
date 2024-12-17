@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotesBazar - Note Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <span class="notes">NOTES</span>
+                <span class="bazaar">BAZAAR</span>
+            </a>
+            
+            <div class="user-actions">
+                <span class="user-name">XYZ</span>
+                <a href="#" class="my-bag">
+                    My Bag <i class="fas fa-shopping-bag"></i>
+                    <span class="bag-count">0</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Note Details Section -->
+    <div class="note-details-page">
+        <div class="container">
+            <div class="row">
+                <!-- Left Column - Note Image -->
+                <div class="col-md-5">
+                    <div class="note-preview">
+                        <img src="assets/note-preview.jpg" alt="Note Preview" class="img-fluid">
+                    </div>
+                    <div class="seller-info-card">
+                        <div class="seller-header">
+                            <div class="seller-avatar">
+                                <img src="assets/seller-avatar.jpg" alt="Seller Avatar" class="rounded-circle">
+                            </div>
+                            <div class="seller-basic-info">
+                                <h4>Yash Daswani</h4>
+                                <div class="seller-badges">
+                                    <span class="badge bg-primary"><i class="fas fa-award"></i> Top Seller</span>
+                                    <span class="badge bg-success"><i class="fas fa-graduation-cap"></i> 8.9 CGPA</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="seller-details">
+                            <div class="seller-stat">
+                                <i class="fas fa-user"></i>
+                                <span class="stat-label">Age:</span>
+                                <span class="stat-value">24</span>
+                            </div>
+                            <div class="seller-stat">
+                                <i class="fas fa-star"></i>
+                                <span class="stat-label">Rating:</span>
+                                <span class="stat-value">4.8/5</span>
+                            </div>
+                            <div class="seller-stat">
+                                <i class="fas fa-book"></i>
+                                <span class="stat-label">Notes Sold:</span>
+                                <span class="stat-value">50+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Details -->
+                <div class="col-md-7">
+                    <div class="note-info">
+                        <h1 class="note-title">Marketing Management Notes</h1>
+                        
+                        <div class="rating-section">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <span>(4.0)</span>
+                            </div>
+                        </div>
+
+                        <div class="price-section">
+                            <h2 class="price">₹299</h2>
+                        </div>
+
+                        <div class="action-buttons">
+                            <button class="btn btn-buy" onclick="window.location.href='payment.html'">Buy Now</button>
+                            <button class="btn btn-cart">Add to Cart</button>
+                        </div>
+
+                        <div class="description">
+                            <h3>Description</h3>
+                            <p>Comprehensive notes covering all marketing management topics. Perfect for exam preparation. Includes case studies and important concepts.</p>
+                        </div>
+
+                        <div class="details-list">
+                            <div class="detail-item">
+                                <span class="label">Subject:</span>
+                                <span class="value">Marketing Management</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">College:</span>
+                                <span class="value">IMT G</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Professor:</span>
+                                <span class="value">Prof. A N Singh</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add the Marketing Notes Image Here -->
+            <div class="text-center mt-4">
+                <img src="assets/marketing-notes.jpg" alt="Marketing Management Notes" class="img-fluid">
+            </div>
+
+            <!-- Reviews Section -->
+            <div class="reviews-section mt-5">
+                <h3>Reviews</h3>
+                <div class="review-list">
+                    <div class="review-item">
+                        <div class="review-header">
+                            <div class="review-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="reviewer-name">Rahul S.</span>
+                        </div>
+                        <p class="review-text">Excellent notes! Very helpful for exam preparation.</p>
+                    </div>
+                    <!-- More reviews -->
+                </div>
+            </div>
+
+            <!-- More Notes Section -->
+            <div class="more-notes mt-5">
+                <h3>More Notes from Yash</h3>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="note-card">
+                            <div class="note-image">
+                                <img src="assets/economics-notes.jpg" alt="Economics Notes" class="img-fluid">
+                            </div>
+                            <div class="note-info">
+                                <h5>Economics Notes</h5>
+                                <div class="note-details">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="price">₹199</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more similar notes if needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

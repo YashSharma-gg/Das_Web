@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotesBazar - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <span class="notes">NOTES</span>
+                <span class="bazaar">BAZAAR</span>
+            </a>
+            
+            <div class="search-bar">
+                <input type="text" class="form-control" placeholder="Search for notes">
+            </div>
+
+            <div class="auth-buttons">
+                <a href="#" class="btn btn-login">Login/signup</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Category Menu -->
+    <div class="category-menu">
+        <div class="container">
+            <div class="row justify-content-between">
+                <!-- College Dropdown -->
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-category dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            College
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">IMT G</a></li>
+                            <li><a class="dropdown-item" href="#">IMT H</a></li>
+                            <li><a class="dropdown-item" href="#">IMT N</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Exam Dropdown -->
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-category dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Exam
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Midterm</a></li>
+                            <li><a class="dropdown-item" href="#">End-term</a></li>
+                            <li><a class="dropdown-item" href="#">Quiz</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Subject Dropdown -->
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-category dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Subject
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Marketing</a></li>
+                            <li><a class="dropdown-item" href="#">Finance</a></li>
+                            <li><a class="dropdown-item" href="#">Economics</a></li>
+                            <li><a class="dropdown-item" href="#">Design Thinking</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Teacher Dropdown -->
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-category dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            Teacher
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Prof A N Singh</a></li>
+                            <li><a class="dropdown-item" href="#">Prof V.S GajaVelli</a></li>
+                            <li><a class="dropdown-item" href="#">Prof Venna</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider Section -->
+    <div class="slider-section">
+        <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slider-content">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <h2>Get Quality Study Notes</h2>
+                                <p>Access premium notes from top students across IMT colleges</p>
+                                <a href="buyer.html" class="btn btn-primary">Browse Notes</a>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/study-notes.jpg" class="d-block w-100" alt="Study Notes">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slider-content">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <h2>Earn While You Learn</h2>
+                                <p>Share your notes and earn money. Start your side hustle today!</p>
+                                <a href="seller.html" class="btn btn-primary">Start Selling</a>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/earn-money.jpg" class="d-block w-100" alt="Earn Money">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slider-content">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <h2>Subject-wise Notes</h2>
+                                <p>Find notes for Marketing, Finance, Economics, and more!</p>
+                                <a href="#" class="btn btn-primary">Explore Subjects</a>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="assets/subjects.jpg" class="d-block w-100" alt="Subject Notes">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="action-buttons">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <a href="seller.html" class="btn btn-seller">Become seller</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="buyer.html" class="btn btn-buyer">Become Buyer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 

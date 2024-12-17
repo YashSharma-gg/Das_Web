@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotesBazar - Start Selling</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <span class="notes">NOTES</span>
+                <span class="bazaar">BAZAAR</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="seller-page">
+        <div class="container">
+            <div class="animated-heading" data-aos="fade-up">
+                <h1 class="seller-heading">
+                    <span class="gradient-text">Start your</span>
+                    <span class="typing-text">side hustle</span>
+                </h1>
+                <p class="sub-text" data-aos="fade-up" data-aos-delay="300">Turn your knowledge into income</p>
+            </div>
+
+            <div class="enhanced-slider" data-aos="fade-up" data-aos-delay="500">
+                <div id="sellerSlider" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="slider-content">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <h2>Share Your Notes</h2>
+                                        <p>Help others while earning money</p>
+                                        <ul class="feature-list">
+                                            <li><i class="fas fa-check-circle"></i> High-quality notes</li>
+                                            <li><i class="fas fa-check-circle"></i> Easy upload process</li>
+                                            <li><i class="fas fa-check-circle"></i> Set your own price</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="assets/slider/share-notes.jpg" alt="Share Notes">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slider-content">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <h2>Earn Money</h2>
+                                        <p>Make money while studying</p>
+                                        <ul class="feature-list">
+                                            <li><i class="fas fa-check-circle"></i> Instant payments</li>
+                                            <li><i class="fas fa-check-circle"></i> Regular income</li>
+                                            <li><i class="fas fa-check-circle"></i> Growing platform</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="assets/slider/earn-money.jpg" alt="Earn Money">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slider-content">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <h2>Build Your Brand</h2>
+                                        <p>Become a top seller</p>
+                                        <ul class="feature-list">
+                                            <li><i class="fas fa-check-circle"></i> Build reputation</li>
+                                            <li><i class="fas fa-check-circle"></i> Get reviews</li>
+                                            <li><i class="fas fa-check-circle"></i> Grow your network</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="assets/slider/build-brand.jpg" alt="Build Brand">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-section">
+                <div class="row justify-content-around">
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                        <div class="stat-box">
+                            <div class="stat-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="stat-number">10,000+</div>
+                            <div class="stat-text">Registered sellers</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stat-box">
+                            <div class="stat-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="stat-number">2 Lakh+</div>
+                            <div class="stat-text">Access to students</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="stat-box">
+                            <div class="stat-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-text">Support</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="400">
+                <a href="upload.html" class="btn btn-start-selling">
+                    <span>Start Selling</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        var typed = new Typed('.typing-text', {
+            strings: ['side hustle', 'success story', 'journey'],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+
+        var sellerSlider = new bootstrap.Carousel(document.querySelector('#sellerSlider'), {
+            interval: 2000
+        });
+    </script>
+</body>
+</html> 

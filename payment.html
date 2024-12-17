@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotesBazar - Secure Payment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <span class="notes">NOTES</span>
+                <span class="bazaar">BAZAAR</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Payment Section -->
+    <div class="payment-page">
+        <div class="container">
+            <div class="payment-container">
+                <!-- Trust Badges -->
+                <div class="trust-badges">
+                    <div class="badge-item">
+                        <i class="fas fa-lock"></i>
+                        <span>Secure Payment</span>
+                    </div>
+                    <div class="badge-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>100% Safe</span>
+                    </div>
+                    <div class="badge-item">
+                        <i class="fas fa-undo"></i>
+                        <span>Money Back Guarantee</span>
+                    </div>
+                </div>
+
+                <h2 class="section-title">Payment Details</h2>
+                
+                <!-- Order Summary -->
+                <div class="order-summary">
+                    <h3>Order Summary</h3>
+                    <div class="summary-item">
+                        <span>Marketing Management Notes</span>
+                        <span>₹299</span>
+                    </div>
+                    <div class="summary-total">
+                        <span>Total</span>
+                        <span>₹299</span>
+                    </div>
+                </div>
+
+                <!-- Payment Form -->
+                <form class="payment-form">
+                    <!-- Card Details -->
+                    <div class="card-details">
+                        <h4><i class="far fa-credit-card"></i> Card Information</h4>
+                        <div class="accepted-cards">
+                            <img src="assets/visa.png" alt="Visa">
+                            <img src="assets/mastercard.png" alt="Mastercard">
+                            <img src="assets/rupay.png" alt="RuPay">
+                        </div>
+                        <div class="form-group">
+                            <label>Card Number</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="1234 5678 9012 3456" required>
+                                <span class="input-group-text"><i class="fas fa-credit-card"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Expiry Date</label>
+                                    <input type="text" class="form-control" placeholder="MM/YY" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>CVV <i class="fas fa-question-circle" data-bs-toggle="tooltip" title="3-digit code on back of card"></i></label>
+                                    <input type="text" class="form-control" placeholder="123" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Card Holder Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                    </div>
+
+                    <!-- Security Notice -->
+                    <div class="security-notice">
+                        <i class="fas fa-shield-alt"></i>
+                        <p>Your payment information is encrypted and secure. We never store your card details.</p>
+                    </div>
+
+                    <!-- Payment Button -->
+                    <button type="submit" class="btn btn-pay">
+                        <i class="fas fa-lock"></i> Pay Securely ₹299
+                    </button>
+                </form>
+
+                <!-- Additional Trust Elements -->
+                <div class="additional-info">
+                    <div class="info-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>SSL Encrypted Payment</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 Support Available</span>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <div class="mt-4 text-center">
+                    <a href="home.html" class="btn btn-outline-primary">
+                        <i class="fas fa-arrow-left"></i> Go to Home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 
